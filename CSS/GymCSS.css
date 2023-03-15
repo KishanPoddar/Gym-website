@@ -1,0 +1,76 @@
+body {
+    font-family: 'Baloo Tammudu 2', cursive;
+    background: url('Images/background.jpg');
+    height: 10000px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 135px;
+    height: 85px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 4px;
+    font-size: 18px;    
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 22px auto;
+    /* border: 2px solid blue; */
+}
+
+.navbar li {
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+
+.navbar li a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.right {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.btn {
+    background: none;
+    color: white;
+    margin: 3px 4px;
+    padding: 7px 16px;
+    border: 2px solid rgb(67 48 48);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: rgb(67 48 48);
+
+}
